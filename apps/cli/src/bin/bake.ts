@@ -11,7 +11,7 @@
 import { writeFileSync } from "node:fs";
 import { requiredProviders, unmetRequirements } from "@sandbox-benchmarks/harness";
 import type { ProviderConfig } from "@sandbox-benchmarks/providers";
-import { config } from "@sandbox-benchmarks/providers";
+import { config } from "@sandbox-benchmarks/providers/config";
 import type { ProviderId } from "@sandbox-benchmarks/schema";
 import { PROVIDERS } from "@sandbox-benchmarks/schema";
 import { bakeDaytonaContainerSnapshot, bakeDaytonaVmSnapshot } from "../lib/bake/daytona.ts";
